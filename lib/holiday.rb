@@ -75,7 +75,8 @@ def all_supplies_in_holidays(holiday_hash)
     return "#{season.capitlize}:"
     holidays.each do | holiday, supplies |
       haliday_name == holiday.to_s.split(" ")
-      holiday_name
+      holiday_name.each do |word|
+        
       
     
 
